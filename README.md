@@ -101,4 +101,4 @@ AUC：0.798（具备临床筛查价值）
 ```bash
 git clone https://github.com/CR7KAFAN/diabetes-risk-ai.git
 cd diabetes-risk-ai
-2. 建议运行顺序：先运行 01 diabetes analysis.ipynb 完成数据探索，再依次运行 day2、day3 以及最新的 04_clinical_optimization.ipynb 查看临床优化结果。
+2. 建议运行顺序：先运行 01 diabetes analysis.ipynb 完成数据探索，再依次运行 day2、day3 以及最新的 04_clinical_optimization.ipynb 查看临床优化结果。之后本人会持续完善此项目---2026.9.10。
