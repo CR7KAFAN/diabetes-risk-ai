@@ -1,6 +1,15 @@
 # 糖尿病风险预测分析
-# 项目简介
+## 项目简介
 基于Pima Indians Diabetes数据集，使用机器学习方法构建糖尿病风险预测模型，对比逻辑回归与随机森林两种算法的表现，并结合大模型进行临床结果解读。近期新增临床决策优化模块：通过阈值调整降低漏诊率，利用ROC与概率校准提升模型在医学筛查中的安全性；进而，利用Qwen-Max实现JSON结构化输出与多轮对话，将模型预测结果无缝对接至自动化系统。
+## 📂 仓库文件说明
+
+- `01 diabetes analysis.ipynb`：数据探索与可视化分析
+- `diabetes_risk_prediction_day2.ipynb`：逻辑回归基线模型与初步Qwen大模型解读
+- `diabetes_risk_prediction_day3.ipynb`：随机森林模型与双模型对比
+- `04_clinical_optimization.ipynb`：方向一临床优化（阈值调整、ROC曲线、概率校准）
+- `05_llm_agent.ipynb`：方向三大模型进阶（JSON结构化输出、多轮对话问诊）
+- `pima-indians-diabetes.csv`：原始数据集
+- `README.md`：项目说明文档
 ## 📊 数据集介绍
 
 本项目使用 **Pima Indians Diabetes Dataset**（皮马印第安人糖尿病数据集），这是机器学习领域经典的医学分类数据集。
